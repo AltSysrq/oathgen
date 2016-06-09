@@ -1,7 +1,7 @@
 #ifndef CRYPTOPP_ALTBASE32_H
 #define CRYPTOPP_ALTBASE32_H
 
-#include "basecode.h"
+#include <cryptopp/basecode.h>
 
 NAMESPACE_BEGIN(CryptoPP)
 

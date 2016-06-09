@@ -18,7 +18,7 @@
 #include <sstream>
 #include <string>
 
-#include <cryptopp/alt_base32.h>
+#include "alt_base32/alt_base32.h"
 #include <cryptopp/hex.h>
 
 #include "global.hpp"
@@ -42,7 +42,7 @@ number strtonum( const std::string& s )
     {
         std::cerr << "Failed to convert " << s << " to a number.\n";
         std::exit(1);
-    } 
+    }
 
     return n;
 }

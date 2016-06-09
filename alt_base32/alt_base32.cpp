@@ -1,6 +1,6 @@
 // base32.cpp - written and placed in the public domain by Frank Palazzolo, based on hex.cpp by Wei Dai
 
-#include "pch.h"
+#include <cryptopp/pch.h>
 #include "alt_base32.h"
 
 NAMESPACE_BEGIN(CryptoPP)
